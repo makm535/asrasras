@@ -1,0 +1,14 @@
+getgenv().farmer = true;
+
+while wait() do
+        if getgenv().farmer == true then
+local args = {
+    [1] = {
+        [1] = "Egg of Many Gifts",
+        [2] = false
+    }
+}
+
+workspace.__THINGS.__REMOTES:FindFirstChild("buy egg"):InvokeServer(unpack(args))
+   end
+end
