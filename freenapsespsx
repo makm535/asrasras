@@ -1,0 +1,276 @@
+-- Made by Azraelle#1218
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local _1 = Instance.new("TextButton")
+local redui = Instance.new("TextButton")
+local cyberui = Instance.new("TextButton")
+local blueui = Instance.new("TextButton")
+local _2 = Instance.new("TextButton")
+local _3 = Instance.new("TextButton")
+local _7 = Instance.new("TextButton")
+local _6 = Instance.new("TextButton")
+local _5 = Instance.new("TextButton")
+local _4 = Instance.new("TextButton")
+local _8 = Instance.new("TextButton")
+local _9 = Instance.new("TextButton")
+local _10 = Instance.new("TextButton")
+local _11 = Instance.new("TextButton")
+local _12 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+main.Position = UDim2.new(0.234549507, 0, 0.249122813, 0)
+main.Size = UDim2.new(0, 713, 0, 429)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+label.BorderColor3 = Color3.fromRGB(51, 51, 51)
+label.Position = UDim2.new(0.35904628, 0, 0, 0)
+label.Size = UDim2.new(0, 200, 0, 50)
+label.Font = Enum.Font.Cartoon
+label.Text = "Freenapse S  - Pet Simulator X"
+label.TextColor3 = Color3.fromRGB(255, 255, 255)
+label.TextSize = 14.000
+label.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+_1.Name = "1"
+_1.Parent = main
+_1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_1.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_1.Position = UDim2.new(0.0280504916, 0, 0.289044291, 0)
+_1.Size = UDim2.new(0, 200, 0, 50)
+_1.Font = Enum.Font.RobotoMono
+_1.Text = "Coming Soon"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 14.000
+
+redui.Name = "redui"
+redui.Parent = main
+redui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+redui.BorderColor3 = Color3.fromRGB(30, 30, 30)
+redui.Position = UDim2.new(0.691444576, 0, 0.116550118, 0)
+redui.Size = UDim2.new(0, 200, 0, 50)
+redui.Font = Enum.Font.RobotoMono
+redui.Text = "Green UI"
+redui.TextColor3 = Color3.fromRGB(255, 255, 255)
+redui.TextSize = 14.000
+redui.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+cyberui.Name = "cyberui"
+cyberui.Parent = main
+cyberui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+cyberui.BorderColor3 = Color3.fromRGB(30, 30, 30)
+cyberui.Position = UDim2.new(0.35904628, 0, 0.116550118, 0)
+cyberui.Size = UDim2.new(0, 200, 0, 50)
+cyberui.Font = Enum.Font.RobotoMono
+cyberui.Text = "Cyber UI"
+cyberui.TextColor3 = Color3.fromRGB(255, 255, 255)
+cyberui.TextSize = 14.000
+cyberui.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+end)
+
+blueui.Name = "blueui"
+blueui.Parent = main
+blueui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+blueui.BorderColor3 = Color3.fromRGB(30, 30, 30)
+blueui.Position = UDim2.new(0.0280504916, 0, 0.116550118, 0)
+blueui.Size = UDim2.new(0, 200, 0, 50)
+blueui.Font = Enum.Font.RobotoMono
+blueui.Text = "Blue UI"
+blueui.TextColor3 = Color3.fromRGB(255, 255, 255)
+blueui.TextSize = 14.000
+blueui.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))()
+end)
+
+_2.Name = "2"
+_2.Parent = main
+_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_2.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_2.Position = UDim2.new(0.35904628, 0, 0.289044291, 0)
+_2.Size = UDim2.new(0, 200, 0, 50)
+_2.Font = Enum.Font.RobotoMono
+_2.Text = "Coming Soon"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 14.000
+
+_3.Name = "3"
+_3.Parent = main
+_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_3.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_3.Position = UDim2.new(0.691444576, 0, 0.289044291, 0)
+_3.Size = UDim2.new(0, 200, 0, 50)
+_3.Font = Enum.Font.RobotoMono
+_3.Text = "Coming Soon"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 14.000
+
+_7.Name = "7"
+_7.Parent = main
+_7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_7.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_7.Position = UDim2.new(0.0280504916, 0, 0.650349677, 0)
+_7.Size = UDim2.new(0, 200, 0, 50)
+_7.Font = Enum.Font.RobotoMono
+_7.Text = "Coming Soon"
+_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+_7.TextSize = 14.000
+
+_6.Name = "6"
+_6.Parent = main
+_6.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_6.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_6.Position = UDim2.new(0.691444576, 0, 0.461538434, 0)
+_6.Size = UDim2.new(0, 200, 0, 50)
+_6.Font = Enum.Font.RobotoMono
+_6.Text = "Coming Soon"
+_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+_6.TextSize = 14.000
+
+_5.Name = "5"
+_5.Parent = main
+_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_5.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_5.Position = UDim2.new(0.35904628, 0, 0.461538434, 0)
+_5.Size = UDim2.new(0, 200, 0, 50)
+_5.Font = Enum.Font.RobotoMono
+_5.Text = "Coming Soon"
+_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+_5.TextSize = 14.000
+
+_4.Name = "4"
+_4.Parent = main
+_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_4.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_4.Position = UDim2.new(0.0280504916, 0, 0.461538434, 0)
+_4.Size = UDim2.new(0, 200, 0, 50)
+_4.Font = Enum.Font.RobotoMono
+_4.Text = "Coming Soon"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextSize = 14.000
+
+_8.Name = "8"
+_8.Parent = main
+_8.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_8.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_8.Position = UDim2.new(0.35904628, 0, 0.650349677, 0)
+_8.Size = UDim2.new(0, 200, 0, 50)
+_8.Font = Enum.Font.RobotoMono
+_8.Text = "Coming Soon"
+_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+_8.TextSize = 14.000
+
+_9.Name = "9"
+_9.Parent = main
+_9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_9.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_9.Position = UDim2.new(0.691444576, 0, 0.650349677, 0)
+_9.Size = UDim2.new(0, 200, 0, 50)
+_9.Font = Enum.Font.RobotoMono
+_9.Text = "Coming Soon"
+_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+_9.TextSize = 14.000
+
+_10.Name = "10"
+_10.Parent = main
+_10.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_10.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_10.Position = UDim2.new(0.0266479664, 0, 0.83916086, 0)
+_10.Size = UDim2.new(0, 200, 0, 50)
+_10.Font = Enum.Font.RobotoMono
+_10.Text = "Coming Soon"
+_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+_10.TextSize = 14.000
+
+_11.Name = "11"
+_11.Parent = main
+_11.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_11.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_11.Position = UDim2.new(0.357643753, 0, 0.83916086, 0)
+_11.Size = UDim2.new(0, 200, 0, 50)
+_11.Font = Enum.Font.RobotoMono
+_11.Text = "Coming Soon"
+_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+_11.TextSize = 14.000
+
+_12.Name = "12"
+_12.Parent = main
+_12.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+_12.BorderColor3 = Color3.fromRGB(30, 30, 30)
+_12.Position = UDim2.new(0.690042078, 0, 0.83916086, 0)
+_12.Size = UDim2.new(0, 200, 0, 50)
+_12.Font = Enum.Font.RobotoMono
+_12.Text = "Coming Soon"
+_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+_12.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Close.BorderColor3 = Color3.fromRGB(51, 51, 51)
+Close.Position = UDim2.new(0.952314138, 0, 0, 0)
+Close.Size = UDim2.new(0, 34, 0, 34)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+main.Visible = false
+openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0, 0, 0.516959071, 0)
+openmain.Size = UDim2.new(0, 182, 0, 61)
+openmain.Active = true
+openmain.Draggable = true
+
+Open.Name = "Open"
+Open.Parent = openmain
+Open.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Open.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Open.Size = UDim2.new(0, 182, 0, 61)
+Open.Font = Enum.Font.RobotoMono
+Open.Text = "Open UI"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 14.000
+Open.MouseButton1Down:connect(function()
+openmain.Visible = false
+main.Visible = true
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Script made by Azraelle.
