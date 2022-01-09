@@ -1,0 +1,9 @@
+local args = {
+    [1] = {
+        [1] = "ef534755-908c-4575-a962-52fb9273978d",
+        [2] = {},
+        [3] = 1
+    }
+}
+
+workspace.THINGS.REMOTES:FindFirstChild("bank deposit"):InvokeServer(unpack(args))
