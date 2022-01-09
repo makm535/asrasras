@@ -6,4 +6,4 @@ local args = {
     }
 }
 
-workspace.THINGS.REMOTES:FindFirstChild("bank deposit"):InvokeServer(unpack(args))
+workspace.__THINGS.__REMOTES:FindFirstChild("bank deposit"):InvokeServer(unpack(args))
