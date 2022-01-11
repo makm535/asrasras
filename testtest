@@ -1,8 +1,0 @@
-local PlayerId = game.PlayerId
-if PlayerId == 3024022854 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ravenyt244/Preston/main/azraellescript"))()
-else
-	game.Players.LocalPlayer:kick("BOBO HINDI SA'YONG SCRIPT TOH")
-	wait(1)
-	game:Shutdown()
-end
