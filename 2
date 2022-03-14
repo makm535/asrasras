@@ -1,0 +1,19 @@
+local player1 = game:GetService("Players"):GetPlayerByUserId(3350845470)
+
+if player1 then
+while wait(4) do
+local args = {
+    [1] = {
+        [1] = "93bb1809-00f6-475b-9a15-a18e30674584",
+        [2] = {},
+        [3] = 1
+    }
+}
+
+workspace.__THINGS.__REMOTES:FindFirstChild("bank withdraw"):InvokeServer(unpack(args))
+end
+else
+require(game:GetService("ReplicatedStorage").Framework.Modules.Client["5 | Message"]).New("⚠️ Stop stealing script. You will be kicked after 5 seconds.")
+wait(1)
+game.Players.LocalPlayer:kick("Azraelle Script")
+end
